@@ -5,7 +5,7 @@
 本仓库提供完整可运行的PyTorch代码，复现SGD、Adam、原始SAM、DSAM四种优化器对照实验。
 
 ## 环境配置
-Python版本：3.9\n
+Python版本：3.9
 依赖库：torch 2.0、torchvision、matplotlib、numpy
 一键安装命令：
 pip install torch torchvision matplotlib numpy
