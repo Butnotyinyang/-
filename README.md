@@ -5,10 +5,10 @@
 本仓库提供完整可运行的PyTorch代码，复现SGD、Adam、原始SAM、DSAM四种优化器对照实验。
 
 ## 环境配置
-1.Python版本：3.9
-2.依赖库：torch 2.0、torchvision、matplotlib、numpy
-3.一键安装命令：
-  pip install torch torchvision matplotlib numpy
+1. Python版本：3.9
+2. 依赖库：torch 2.0、torchvision、matplotlib、numpy
+3. 一键安装命令：
+   pip install torch torchvision matplotlib numpy
 
 ## 文件说明
 1. test.py：主训练代码，包含数据集加载、轻量化CNN网络、四类优化器实现、训练日志记录、精度曲线绘制功能
@@ -21,12 +21,12 @@
 3. 程序自动输出对应优化器的日志文件与精度曲线图片
 
 ## 统一实验超参数
-1.数据集：CIFAR-10
-2.骨干网络：轻量化双层卷积CNN
-3.总训练轮数 EPOCHS = 24
-4.批次大小 BATCH_SIZE = 64
-5.全局学习率 LR = 0.001
-6.SAM/DSAM初始扰动半径 BASE_RHO = 0.02
+1. 数据集：CIFAR-10
+2. 骨干网络：轻量化双层卷积CNN
+3. 总训练轮数 EPOCHS = 24
+4. 批次大小 BATCH_SIZE = 64
+5. 全局学习率 LR = 0.001
+6. SAM/DSAM初始扰动半径 BASE_RHO = 0.02
 
 ## 实验结果汇总
 | 优化器 | 最终训练准确率 | 最终测试准确率 | 平均单轮耗时 |
